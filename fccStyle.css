@@ -1,0 +1,121 @@
+div {
+
+}
+@-ms-viewport{
+  width: device-width;
+}
+
+      /* Navbar */
+#navId {
+  max-width: 1000px;
+}
+#newNav {
+  float: right;
+  margin-right: 1em;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+}
+p.logo {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 2em;
+  margin-top: 2em;
+  margin-left: .8em;
+}
+
+      /* About Me */
+#aboutMeParagraph {
+  font-family: helvetica;
+  font-size: 1.5em;
+  width: 100%;
+  margin-top: 1em;
+}
+
+h4.skillsInfo {
+  font-weight: 900;
+  margin-left: 1em;
+  margin-bottom: 2em;
+}
+#aboutid {
+  box-shadow: 2px 2px 5px;
+  max-width: 1000px;
+}
+#face {
+  padding: 1em;
+}
+
+
+      /* Portfolio */
+#portfolioContainer {
+  background-color: #eff5f5;
+  box-shadow: 2px 2px 5px;
+  max-width: 1000px;
+}
+#portfolioContainer h3 {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  font-weight: 900;
+}
+#customHr {
+
+  margin-bottom: 0.5em;
+  margin-left: 1%;
+  width: 60%;
+  border-style: inset;
+  border-width: 2px;
+}
+.img-responsive {
+     margin: 0 auto;
+     margin-bottom: 1em;
+     padding-bottom: 2em;
+     color: white;
+   }
+
+
+
+    /* Contact Me */
+#contactContainer {
+
+  box-shadow: 2px 2px 5px;
+  max-width: 1000px;
+}
+#contactContainer h3 {
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  font-weight: 900;
+  margin-top: 1em;
+}
+#contactContainer p {
+  font-family: helvetica;
+  font-size: 1.5em;
+}
+
+#contactFormGroup {
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+#contactMePara {
+  margin-top: 2.5em;
+}
+
+
+
+
+      /* Footer */
+#footerContainer {
+  max-width: 1000px;
+  background-color: #cccccc;
+  box-shadow: 2px 2px 5px;
+}
+p.copyright {
+  float: left;
+  padding-top: 1em;
+  width: 85%;
+}
+.input-group i {
+  float: right;
+  padding: .1em;
+
+}
+i:hover {
+  color: blue;
+}

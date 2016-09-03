@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jamie O'Connell Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="description" content="A bootsrap portfolio for Jamie O'Connell">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="fccStyle.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="container" id="navId">
+    <div class="row">
+      <p class="logo">Jamie O'Connell</p>
+      <ul class="nav nav-pills" id="newNav">
+        <li role="presentation"><a href="#aboutLink">About</a></li>
+        <li role="presentation"><a href="#portfolioLink">Portfolio</a></li>
+        <li role="presentation"><a href="#contactLink">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- About -->
+  <div class="container bg-info" id="aboutid">
+    <div class="row">
+      <div class="col">
+       <div class="col-lg-9">
+        <p class="col-lg-2" id="aboutMeParagraph">My name is Jamie and I'm a junior developer at FCC, with extensive practical experience in brand strategy, creative direction and project management; devoted to Functional Programming and Information Architecture. Also a huge fan of semantics and futuristic interfaces.</p>
+        <hr id="customHr">
+        <h4 class="skillsInfo">Web Developer - Graphic Artist - User Experience Designer</h4>
+       </div>
+
+        <div class="col-lg-3">
+          <img src="circle face.gif" id="face" width="200px" height="200px">
+        </div>
+
+      </div>
+
+
+
+
+
+
+    </div>
+  </div>
+  <!-- Portfolio -->
+  <div class="container" id="portfolioContainer">
+    <div class="row">
+      <h3 a id="portfolioLink">MY WORK</h3>
+      <hr id="customHr">
+      <!-- Portfolio photo #1 -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img class="img-responsive" src="http://i.imgur.com/pUxo1WP.jpg">
+      </div>
+      <!-- Portfolio photo #2 -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img class="img-responsive" src="http://i.imgur.com/pUxo1WP.jpg">
+      </div>
+      <!-- Portfolio photo #3 -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img class="img-responsive" src="http://i.imgur.com/pUxo1WP.jpg">
+      </div>
+      <!-- Portfolio photo #4 -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img class="img-responsive" src="http://i.imgur.com/pUxo1WP.jpg">
+      </div>
+      <!-- Portfolio photo #5 -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img class="img-responsive" src="http://i.imgur.com/pUxo1WP.jpg">
+      </div>
+      <!-- Portfolio photo #6 -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <img class="img-responsive" src="http://i.imgur.com/pUxo1WP.jpg">
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="container bg-info" id="contactContainer">
+    <div class="row">
+
+      <div class="col">
+        <h3 a id="contactLink">CONTACT ME</h3>
+      </div>
+
+    <hr id="customHr">
+
+  <form>
+  <div class="form-group col-lg-6" id="contactFormGroup">
+    <label for="exampleInputEmail1">Name</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Name">
+    <small id="emailHelp" class="form-text text-muted">I will never share your information with anyone else.</small>
+    <br>
+    <label for="exampleInputEmail1">Email</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+
+    <label for="exampleInputEmail1">Phone Number</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Phone Number">
+
+    <label for="exampleInputEmail1">Message</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+
+  </div>
+  </form>
+
+  <div class="col-lg-6" id="contactMePara">
+    <p>Want to get in touch with me? Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+  </div>
+
+
+    </div>
+  </div>
+
+  <!-- footer -->
+  <div class="container" id="footerContainer">
+    <div class="row">
+      <div class="col-lg-12">
+        <p class="copyright"><small>Jamie O'Connell © 2016. All Rights Reserved</small></p>
+         <div class="input-group">
+          <i class="fa fa-twitter-square fa-3x" aria-hidden="true"></i>
+          <i class="fa fa-github-square fa-3x" aria-hidden="true"></i>
+          <i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
